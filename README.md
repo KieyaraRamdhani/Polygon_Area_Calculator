@@ -18,9 +18,11 @@ get_perimeter: Returns perimeter  2(width+height)
  .
 get_diagonal: Returns diagonal  width2+height2−−−−−−−−−−−−−−√
  .
+ 
 get_picture: Returns a string that represents the shape using lines of *. The number of lines should be equal to the height and the number of: 
 
 * in each line should be equal to the width. There should be a new line (\n) at the end of each line. If the width or height is larger than 50, this should return the string: Too big for picture.
+
 
 get_amount_inside: Takes another shape (square or rectangle) as an argument. Returns the number of times the passed in shape could fit inside the shape (with no rotations). For instance, two squares with sides of 4 could fit inside a rectangle with a width of 4 and a height of 8.
 If an instance of a Rectangle is represented as a string, it should look like: Rectangle(width=5, height=10).
@@ -33,6 +35,8 @@ The Square class should contain the following methods:
 
 set_width: Overrides the set_width method from the Rectangle class. It should set the width and height to the side length.
 set_height: Overrides the set_height method from the Rectangle class. It should set the width and height to the side length.
+
+
 set_side: Sets the height and width of the square equal to the side length.
 The Square class should be able to access the Rectangle class methods.
 
